@@ -1,0 +1,83 @@
+.corousel {
+    margin-top: 140px;
+}
+
+/* reponsive screen max-width 900px and min-width 500px */
+@media screen and (max-width: 900px) and (min-width: 500px) {
+   /* responsive navbar start */
+   .navbar-brand {
+    margin-bottom: 20px;
+    }
+    .login, .register {
+        text-align: center;
+    } 
+    .btn-login, .btn-register {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .btn-register {
+        margin-bottom: 20px;
+    }
+    /* responsive navbar end */
+
+    /* responsive subNavbar start */
+    .input-search {
+        top: 33px;
+        left: -90px;
+    }
+    /* responsive subNavbar end */
+    .corousel {
+        margin-top: 130px;
+    }
+ 
+}
+
+/* reponsive screen max-width 500px and min-width 300px */
+@media screen and (max-width : 500px) and (min-width: 300px) {
+    /* responsive navbar start */
+    .navbar-brand {
+        margin-bottom: 20px;
+    }
+    .login, .register {
+        text-align: center;
+    } 
+    .btn-login, .btn-register {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .btn-register {
+        margin-bottom: 20px;
+    }
+    /* responsive navbar end */
+    /* responsive subNavbar start */
+    .input-search {
+        top: 33px;
+        left: -100px;
+    }
+    /* responsive subNavbar end */
+}
+
+/* reponsive screen max-width 300px */
+@media screen and (max-width : 350px) {
+    /* responsive navbar start */
+    .navbar-brand {
+        margin-bottom: 20px;
+    }
+    .login, .register {
+        text-align: center;
+    } 
+    .btn-login, .btn-register {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .btn-register {
+        margin-bottom: 20px;
+    }
+    /* responsive navbar end */
+    /* responsive subNavbar start */
+    .input-search {
+        top: 33px;
+        left: -75px;
+    }
+    /* responsive subNavbar end */
+}

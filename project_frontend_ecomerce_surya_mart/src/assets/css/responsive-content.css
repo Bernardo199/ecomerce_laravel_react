@@ -1,0 +1,72 @@
+.products .card {
+    width: 18rem;
+}
+
+/* reponsive screen max-width 900px and min-width 500px */
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    /* responsive category start */
+    .category {
+        margin: 0 auto;
+        height: 30vh;
+        overflow: scroll;
+    }
+    /* responsive category end */
+    /* responsive product start */
+    .header-product {
+        margin-top: 50px;
+    }
+    .products .card {
+        width: 18rem;
+        margin: 10px auto;
+    }
+    .products .img-product {
+        height: 220px;
+    }
+    /* responsive product end */
+}
+
+/* reponsive screen max-width 500px and min-width 300px */
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    /* responsive category start */
+    .category {
+        margin: 0 auto;
+        height: 20vh;
+        overflow: scroll;
+    }
+    /* responsive category end */
+    /* responsive product start */
+    .header-product {
+        margin-top: 50px;
+    }
+    .products .card {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .products .img-product {
+        height: 250px;
+    }
+    /* responsive product end */
+}
+
+/* reponsive screen max-width 300px*/
+@media screen and (max-width: 350px) {
+     /* responsive category start */
+     .category {
+        margin: 0 auto;
+        height: 20vh;
+        overflow: scroll;
+    }
+    /* responsive category end */
+    /* responsive product start */
+    .header-product {
+        margin-top: 50px;
+    }
+    .products .card {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .products .img-product {
+        height: 180px;
+    }
+    /* responsive product end */
+} 
